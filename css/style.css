@@ -1,0 +1,509 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    font-family: Roboto,sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerconatainer {
+  height: 500px;
+  background-image: url(../illustration/Images/hero-bg.jpg);
+  color: white;
+ 
+}
+.mainbodysection{
+  background-image: url(../illustration/Images/body_bg.jpg);
+}
+.navigationcontainer{
+  display: none;
+}
+
+.websitelogo h1 {
+  font-size: 25px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+.maintext{
+  text-align: center;
+  margin-top: 50px;
+}
+.maintext h1 {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+  
+}
+.maintext span {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  color: #E93F1A;
+}
+.maintext p {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.maintext button{
+  margin-top: 20px;
+  color: white;
+  background-color: #E93F1A;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+
+.about h1 {
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+}
+
+.about{
+  margin: 20px;
+}
+.about p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+.about button {
+  margin-top: 20px;
+  color: white;
+  background-color: #E93F1A;
+  
+  padding: 10px 24px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.aboutimg{
+  text-align: center;
+}
+.aboutimg img {
+   margin-top: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.Servicescontainer{
+  text-align: center;
+}
+
+
+.Servicescontainer span{
+ 
+  font-size: 1.8rem;
+  text-decoration: underline black;
+  font-weight: bold;
+ 
+}
+
+.box1 {
+  padding-top: 20px;
+  margin: 20px;
+  text-align: left;
+  
+}
+
+
+.box1 h1 {
+ font-size: 1.5rem;
+ letter-spacing: 1px;
+ padding-bottom: 10px;
+ text-align: left;
+}
+.box1 p{
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  line-height: 25px;
+  
+}
+.box2{
+  margin: 20px;
+ text-align: right;
+}
+.box2 p {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.box2 h1{
+  font-size: 1.5rem;
+ letter-spacing: 1px;
+ padding-bottom: 10px;
+ text-align: right;
+}
+.box3 {
+  margin: 20px;
+  text-align: left;
+}
+
+.box3 p {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.box3 h1{
+  font-size: 1.5rem;
+ letter-spacing: 1px;
+ padding-bottom: 10px;
+}
+.box4 {
+  margin: 20px;
+ text-align: right;
+}
+.box4 p {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.box4 h1{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+.Servicescontainer h3 {
+   font-size: 1.9rem;
+   padding-top: 40px;
+   text-align: center;
+   font-weight: 400;
+
+}
+.paragarp {
+  font-size: 1rem;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.box5{
+  margin: 20px;
+}
+
+
+.box5 button{
+  color: white;
+  background-color: #E93F1A;
+
+  padding: 15px 50px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+
+.Servicescontainer button{
+  margin-top: 20px;
+  color: white;
+  background-color: #E93F1A;
+
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+
+
+
+.Callbackcontainer{
+  margin: 20px;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+
+
+
+.Callbackcontainer h1{
+  font-size: 1.8rem;
+  text-decoration: underline black;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.Callbackcontainer input{
+  padding: 20px;
+  margin: 20px;
+  width: 70%;
+  background-color:#1c1b2d;
+  color: gray;
+}
+.Callbackcontainer button{
+  margin-top: 20px;
+  color: white;
+  background-color: #E93F1A;
+  padding: 10px 24px;
+  border-radius: 5px;
+
+}
+.Callbackcontainer img{
+  height: 201px;
+  width: 310px;
+  padding-bottom: 70px;
+
+}
+.Testimonialcontainer h1{
+  font-size: 1.8rem;
+  text-decoration: underline black;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.Testimonialsection{
+  display: flex;
+}
+.Testimonialsection img{
+  height: 114px;
+  width: 175px;
+}
+.Testimonialcontainer h2 {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+.Testimonialcontainer h3 {
+  margin-top: 10px;
+  margin-left: 60px;
+font-weight: 400;
+color: #e8300b;
+}
+.Testimonialcontainer p {
+  background-color: #e93f1a;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  padding: 20px;
+  text-align: left;
+  color: white;
+  font-weight: 200;
+}
+
+.Contactcontainer{
+  text-align: center;
+}
+
+.Contactcontainer h1{
+  font-size: 1.8rem;
+  text-decoration: underline black;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 60px;
+padding-top: 60px;
+}
+
+.contactimg {
+  display: flex;
+  justify-content: space-between;
+  margin:  0  30px;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px; */
+  padding-bottom: 20px;
+}
+
+footer{
+  background-color: #1d1d1d;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding-top: 20px;
+}
+button:hover{
+  background-color: transparent;
+  color: #E93F1A;
+  border:1px solid #E93F1A;
+}
+
+
+
+
+/* Tablet View */
+
+@media (min-width: 768px){
+  .headerconatainer{
+    margin-bottom: 60px;
+  }
+
+/*
+.maintext {
+  
+  width: 400px;
+  margin-left: 50px;
+}
+*/
+
+.maintext button {
+  margin-top: 40px;
+}
+.maintext h1 {
+  font-size: 2.5rem;
+  margin-right: 30px;
+}
+.maintext span {
+  font-size: 2.5rem;
+  margin-top: 30px;
+
+}
+.maintext p {
+  margin-top: 20px;
+}
+
+.aboutcontainer{
+  display: flex;
+}
+.about{
+  
+  margin: 30px;
+  width: 50%;
+}
+.aboutimg{
+  margin: 30px;
+  width: 50%;
+  padding-top: 30px;
+
+}
+
+.about p{
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+
+.aboutcontainer{
+  margin-bottom: 50px;
+}
+
+
+
+.services1{
+  display: flex;
+  margin: 30px;
+}
+
+
+.box2{
+  text-align: start;
+  
+  padding-top: 20px;
+
+}
+.box2 h1{
+  text-align: start;
+}
+.services2{
+  display: flex;
+  margin: 30px;
+}
+.box4{
+  text-align: start;
+}
+
+
+.box5 button{
+  padding: 12px 30px;
+}
+
+.Callbacksection{
+  display: flex;
+}
+
+
+.Callbackcontainer button{
+  margin: 30px;
+}
+.Contactcontainer{
+  
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.Testimonialcontainer{
+  margin: 30px;
+}
+
+.Contactcontainer{
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+
+
+}
+
+/* Desktop  */
+@media (min-width: 992px){
+
+/* .maintext{
+  text-align: left;
+  justify-content: left;
+}
+
+.about{
+  width: 100%;
+
+}
+
+.aboutimg{
+  width: 100%;
+  box-sizing: border-box  ;
+}
+.Servicescontainer span{
+  text-align: center;
+} */
+
+
+}
+
+@media (min-width: 1200px){
+
+
+.main_lgcontainer{
+ 
+  width: 75%;
+    margin: 0 auto;
+  }
+.main_bodyimage{
+ background-image: url(../illustration/Images/body_bg.jpg);
+ width: 100%;
+}
+.Callbackcontainer img{
+  width: 50%;
+}
+
+.Callbacksection button{
+  padding: 13px 40px;
+
+}
+.imageclass{
+  width: 100%;
+ 
+
+}
+
+
+
+
+} 
+
